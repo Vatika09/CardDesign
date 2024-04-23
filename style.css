@@ -1,0 +1,123 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url('fries.png');
+     background-size: cover;
+    /* background-color: #FFEC9E; */
+}
+
+.card{
+    width: 300px;
+    background-color: #FFFBDA;
+    /* background: transparent; */
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    margin: 25px auto;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.item-desc{
+    margin: 0;
+    padding: 20px;
+}
+.item-name{
+    margin: 0;
+    font-size: 20px;
+}
+.rating{
+    font-size: 20px;
+    color: #f0c400;;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 18px;
+    margin-left: 80px;
+}
+.price span:first-child{
+    font-size: 18px;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+  }
+.actions button{
+ padding: 10px 20px;
+ border: none;
+ border-radius: 3px;
+ cursor: pointer;   
+}
+ 
+.like-btn, .add-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+.like-btn{
+    background-color: #4e7fe9;
+    color: #fff;
+}
+
+.user-info {
+    background-color:#fff ;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    border-top: 1px solid #ccc;
+  }
+.user-profo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid rgb(132, 132, 49);
+}
+.user-details {
+    flex-grow: 1;
+  }
+  .user-name{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .user-designation {
+    margin: 0;
+    font-size: 15px;
+  
+  }
+  .info{
+    margin: 0;
+    font-size: 15px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
